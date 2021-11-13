@@ -15,7 +15,7 @@ export default class HomeScreen extends Component {
     super(props);
     this.state = {
       listData: [],
-      url: "http://localhost:5000/"
+      url: "http://127.0.0.1:5000/"
     };
   }
 
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#edc988"
   },
   upperContainer: {
-    flex: 0.1,
+    height:60,
     justifyContent: "center",
     alignItems: "center"
   },
