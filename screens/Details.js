@@ -8,7 +8,7 @@ export default class DetailsScreen extends Component {
     this.state = {
       details: {},
       imagePath: "",
-      url: `http://localhost:5000/planet?name=${this.props.navigation.getParam(
+      url: `http://127.0.0.1:5000/planet?name=${this.props.navigation.getParam(
         "planet_name"
       )}`
     };
